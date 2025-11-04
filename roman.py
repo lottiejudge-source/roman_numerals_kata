@@ -19,8 +19,8 @@ class RomanNumeralTest(unittest.TestCase):
     def test_result_of_six(self):
          self.assertEqual(roman_numerals(6), 'VI')
 
-    # def test_result_of_eight(self):
-    #      self.assertEqual(roman_numerals(8), 'VIII')
+    def test_result_of_eight(self):
+         self.assertEqual(roman_numerals(8), 'VIII')
     
     # def test_result_of_nine(self):
     #      self.assertEqual(roman_numerals(9), 'IX')
